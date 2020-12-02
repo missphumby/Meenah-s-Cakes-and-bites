@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>CakesandDeserts</title>
+    <link rel="stylesheet" type="text/css" href="css/practise.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">\ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"> -->
+</head>
+
+<body>
+    <div id="nav-bar">
+        <img src="imgs/cupcake.png" height="80%" id="logo">
+        <ul>
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#contents" class="nav-link">About</a></li>
+            <li><a href="#store" class="nav-link">Store</a></li>
+        </ul>
+
+            <div id="shopping">
+                <h4 class="contact"><i class="fa fa-phone" style="font-size: 30px;"></i></h4>
+                    <span>08185687480
+                </span>
+            </div>
+
+            <div class="bar"><i class="fa fa-shopping-cart" style="font-size: 30px;"></i>
+                <!-- <span<p> 2 Items - $10.49</p> -->
+                <p><span id="item-count">2 </span> items - $<span class="item-total">21.98</span></p>
+            </span></div>
+            
+        
+    </div>
+
+    <div class="bannerContainer">
+    <div id="banner">
+        <h1>Welcome To <span class="welcome">Ameenah's</span></h1><br>
+        <a href="#store" class="explore1">EXPLORE</a>
+    </div>
+<div class="cart" id="cart">
+        <div class="cart-item" style="word-spacing: 40px; text-align: center;">
+            <img src="imgs/z-sweets-3.jpeg" class="item-img">
+                <div class="item-text"><p id="itemm-name">Cart-Item</p>
+                <span>$</span><strong class="itemm-price">10.99</strong>
+                </div>
+                <a href="#"><i class="fa fa-trash"
+                    style="color: red;"></i></a>
+            </div><br>
+
+            <div class="cart-item" style="word-spacing: 40px; text-align: center;">
+                <img src="imgs/z-cake-2.jpeg" class="item-img">
+                    <div class="item-text"><p id="itemm-name">Cart-Item</p>
+                    <span>$</span><strong class="itemm-price">10.99</strong>
+                    </div>
+                    <a href="#"><i class="fa fa-trash"
+                        style="color: red"></i></a>
+                </div><br>
+  
+                <div class="cart-total" id="cart-total">
+                    <h5>Total</h5>
+                    <h5>$<strong id="cartValue">21.98</strong> </h5>
+                  </div>
+
+           <div id="buttongroup">
+          <a style="word-spacing: 0px !important;" class="clear-cart">CLEAR CART</a> 
+          <a class="check-out">CHECKOUT</a>
+        </div>
+        </div>
+        </div>
+
+    <section class="contents"  id="contents" style="height: 500px">
+
+    <div id="aboutus">
+        <h2 id="about">About <span class="us">Us</span></h2>
+        <p class="cakestext">Ameenah's cake emporium prides itself in producing the best cakes in Nigeria. <br> We
+            also do doorstep
+            delivery, wether you want it plain or Fondant<br> we gat you covered0 always and we remain your best
+            Plug
+            <br>for your Cakes,Deserts and Ice-creams.</p><br>
+        <button class="explore2">EXPLORE</button>
+        </div>
+    <div>
+    <div class="abtImg" style="height: 400px; width: 450px;">
+         <img src="imgs/cakes.jpeg" class="cakesabout"> 
+    </div>
+</div> 
+</section>
+
+    <div id="footer">
+        <h1 id="store">Our <span class="our">Store</span></h1>
+        <div id="row">
+            <a href="#" class="btn btn-secondary" data-filter="all"> ALL</a>
+            <a href="#" class="btn btn-secondary" data-filter="cakes">CAKES</a>
+            <a href="#" class="btn btn-secondary" data-filter="cupcakes">CUPCAKES</a>
+            <a href="#" class="btn btn-secondary" data-filter="sweets">SWEETS</a>
+            <a href="#" class="btn btn-secondary" data-filter="doughnuts">DOUHGNUTS</a>
+        </div>
+        <form>
+
+            <div class="search">
+                <span id="search-icon"><i class="fa fa-search" id="srch"></i><span><input type="text"
+                            placeholder='item....' id="search-item"></span></span>
+            </div>
+
+        </form><br><br>
+        <div id="image-box" width="100%">
+            <div id="img-container" class="sweets" style="width: 330px;">
+                <div>
+                    <img src="imgs/sweets-1.jpeg" class="store-img" alt="">
+                    <span class="item-icon"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="group">
+                    <h4 class="item-name">Sweet Item</h4>
+                    <span class="item-value">$<strong class="item-price">5</strong></span>
+                </div>
+                </div>
+            </div>
+
+            <div id="img-container" class="cupcakes" style="width: 330px;">
+                <div>
+                    <img src="imgs/cupcake-1.jpeg" class="store-img" alt="">
+                    <span class="item-icon"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="group">
+                    <h4 class="item-name">Cupcake Item</h4>
+                    <span class="item-value">$<strong class="item-price">5</strong></span>
+                </div>
+                </div>
+            </div>
+            
+            <div id="img-container" class="cakes" style="width: 330px;">
+                <div>
+                    <img src="imgs/cake-2.jpeg" class="store-img" alt="">
+                    <span class="item-icon"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="group">
+                    <h4 class="item-name">Cake Item</h4>
+                    <span class="item-value">$<strong class="item-price">15</strong></span>
+                </div>
+                </div>
+            </div>
+            <div id="img-container" class="doughnuts" style="width: 330px;">
+                <div>
+                    <img src="imgs/doughnut-3.jpeg" class="store-img" alt="">
+                    <span class="item-icon"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="group">
+                    <h4 class="item-name">Doughnut Item</h4>
+                    <span class="item-value">$<strong class="item-price">20</strong></span>
+                </div>
+                </div>
+            </div>
+
+            <div id="img-container" class="cakes" style="width: 330px;">
+                <div>
+                    <img src="imgs/cake-1.jpeg" class="store-img" alt="">
+                    <span class="item-icon"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="group">
+                    <h4 class="item-name">Cake Item</h4>
+                    <span class="item-value">$<strong class="item-price">10</strong></span>
+                </div>
+                </div>
+            </div>
+
+            <div id="img-container" class="sweets" style="width: 330px;">
+                <div>
+                    <img src="imgs/sweets-2.jpeg" class="store-img" alt="">
+                    <span class="item-icon"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="group">
+                    <h4 class="item-name">Sweet Item</h4>
+                    <span class="item-value">$<strong class="item-price">10</strong></span>
+                </div>
+                </div>
+            </div>
+
+            <div id="img-container" class="doughnuts" style="width: 330px;">
+                <div>
+                    <img src="imgs/doughnut-1.jpeg" class="store-img" alt="">
+                    <span class="item-icon"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="group">
+                    <h4 class="item-name">Doughnut Item</h4>
+                    <span class="item-value">$<strong class="item-price">15</strong></span>
+                </div>
+                </div>
+            </div>
+
+            <div id="img-container" class="cupcakes" style="width: 330px;">
+                <div>
+                    <img src="imgs/cupcake-2.jpeg" class="store-img" alt="">
+                    <span class="item-icon"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="group">
+                    <h4 class="item-name">Cupcake Item</h4>
+                    <span class="item-value">$<strong class="item-price">25</strong></span>
+                </div>
+                </div>
+            </div>
+
+            <div id="img-container" class="doughnuts" style="width: 330px;">
+                <div>
+                    <img src="imgs/doughnut-2.jpeg" class="store-img" alt="">
+                    <span class="item-icon"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="group">
+                    <h4 class="item-name">Doughnut Item</h4>
+                    <span class="item-value">$<strong class="item-price">15</strong></span>
+                </div>
+                </div>
+            </div>
+
+            <div id="img-container" class="cupcakes" style="width: 330px;">
+                <div>
+                    <img src="imgs/cupcake-3.jpeg" class="store-img" alt="">
+                    <span class="item-icon"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="group">
+                    <h4 class="item-name">Cupcake Item</h4>
+                    <span class="item-value">$<strong class="item-price">10</strong></span>
+                </div>
+                </div>
+            </div>
+
+            <div id="img-container" class="sweets" style="width: 330px;">
+                <div>
+                    <img src="imgs/sweets-3.jpeg" class="store-img" alt="">
+                    <span class="item-icon"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="group">
+                    <h4 class="item-name">Sweet Item</h4>
+                    <span class="item-value">$<strong class="item-price">10</strong></span>
+                </div>
+                </div>
+            </div>
+
+            <div id="img-container" class="cakes" style="width: 330px;">
+                <div>
+                    <img src="imgs/cake-3.jpeg" class="store-img" alt="">
+                    <span class="item-icon"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="group">
+                    <h4 class="item-name">Cake Item</h4>
+                    <span class="item-value">$<strong class="item-price">15</strong></span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!-- modal-container -->
+ <div class="container">
+    <div class="row lightbox-container align-items-center">
+      <div class="col-10 col-md-10 mx-auto text-right lightbox-holder">
+        <span class="lightbox-close"><i class="fa fa-window-close fa-pull-right"  aria-hidden="true"></i></span>
+        <div class="lightbox-item"></div>
+        <span class="lightbox-control btnLeft"><i class="fa fa-caret-left"></i></span>
+        <span class="lightbox-control btnRight"><i class="fa fa-caret-right"></i></span>
+      </div>
+
+    </div>
+  </div>
+
+    <script src="scripts/practise.js"></script>
+</body>
+
+</html>

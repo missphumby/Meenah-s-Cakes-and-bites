@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+
+body{
+    color: white;
+    font-family: "Kaushan Script", cursive;
+    color: black;
+    
+}
+   .nav-link{
+    color: palevioletred;
+    font-size: 25px;
+    font-weight: 600;
+    /* font-family: Lucida; */
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none !important;
+    list-style-type: none;
+    
+   }
+   .nav-link:hover{
+       color: black;
+       
+   }
+
+   li{
+    float: left;
+    text-align: center;
+    list-style-type: none;
+   }
+
+ul{
+    display: inline-block;
+    align-content: center;
+    margin-left: 20%;
+    margin-top: 40px;
+    font-family: "Kaushan Script", cursive;
+}
+#logo{
+    padding: 10px;
+}
+
+#nav-bar{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bar{
+
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    border: solid 2px black;
+    border-radius: 6px;
+    cursor: pointer;
+    /* float: right; */
+}
+
+.bar:hover{
+background-color: palevioletred;
+}
+
+.contact{
+color: black;
+    display: inline-block;
+    font-weight: bolder;
+    /* margin-right: 120px; */
+    letter-spacing: 2px;
+}
+
+.bannerContainer {
+    min-height: calc(100vh - 76px);
+    background: linear-gradient(rgba(249, 228, 148, 0.5), rgba(249, 228, 148, 0.5) ), url(../imgs/cakeheader\ \(1\).jpeg) center/cover fixed no-repeat;
+    position: relative;
+    text-align: center;
+  }
+
+
+#banner{
+    /* background: linear-gradient( rgba(249, 228, 148, 0.5), rgba(249, 228, 148, 0.5)), url(../imgs/cakeheader\ \(1\).jpeg); */
+    /* position: relative; */
+    /* background-repeat: no-repeat; */
+    /* height: 600px; */
+    /* width: 100%; */
+    font-family: "Kaushan Script", cursive;
+    color: white;
+  margin-top: -4rem;
+
+}
+
+
+.welcome{
+    color: palevioletred;
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+}
+h1{
+    font-size: 40px;
+    padding-top: 150px;
+    color: white;
+}
+.explore1{
+    padding: 8px;
+    border: 2px solid black;
+    font-family: "Kaushan Script", cursive;
+    font-size: 20px;
+    background-color: inherit;
+    text-decoration: none;
+    color: black;
+    
+}
+.explore1:hover{
+    background-color: black;
+    color: palevioletred;
+}
+
+.cakesabout{
+    height: 400px; 
+    width: 400px;
+    background-size: cover;
+    /* margin-left: 15% */
+}
+.contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ .abtImg { 
+    position: relative;
+  }
+
+.abtImg::before {
+    content: "";
+    position: absolute;
+    top: -1.5rem;
+    left: -1.7rem;
+    width: 400px;
+    height: 400px;
+    outline: 0.5rem solid yellow;
+    z-index: -1;
+    transition: all 1s ease-in-out;
+  }
+
+
+  .abtImg:hover:before {
+    top: 0;
+    left: 0;
+  } 
+
+
+  /* #contents:hover #container{
+    transform: scale(1.2) 
+} */
+ 
+
+.us{
+    font-size: 70px;
+    color: palevioletred;
+}
+/* #aboutus{
+    margin-left: 10%;
+} */
+
+.explore2{
+    padding: 8px 10px;
+    border: 1px solid black;
+    font-family: "Kaushan Script", cursive;
+    font-size: 16px;
+    background-color: inherit;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 2px 3px 2px 2px darkgrey;
+
+}
+.explore2:hover{
+    background-color: black;
+    color: palevioletred;
+}
+
+#about{
+    font-size: 40px;
+    font-weight: lighter
+}
+
+#footer{
+ width: 100%;
+ background:rgb(238, 238, 238);
+ text-align: center;
+  color: black;
+}
+
+.our{
+    font-size: 70px;
+    color: rgb(226, 69, 121);
+    font-weight: bolder;
+}
+
+#store{
+    font-size: 40px; 
+    color: black;
+    font-weight: 100;
+}
+
+#footer h1{
+    align-content: center;
+    padding-top: 20px;
+}
+.btn{
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid black;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 6px;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.btn:hover{
+    background-color: black;
+    color: palevioletred;
+}
+
+#srch{
+  background-color: palevioletred;  
+  padding: 10px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+#search-item{
+    width: 40%;
+    height: 30px;
+    border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+
+#img-container {
+  position: relative;
+   overflow: hidden; 
+  cursor: pointer;
+  align-content: center;
+  margin-right: 60px;
+  border-radius: 4px;
+  /* width: 350px; */
+  background-color: white;
+  display: inline-block;
+  padding-left: 0;
+  margin-top: 20px;
+  
+  
+}
+
+#image-box{
+    width: 100%;
+    height: 1600px;
+    background:rgb(238, 238, 238);
+    overflow: hidden;
+    
+}
+#card-body h4{
+    color: black;
+    padding: 5px;
+    font-weight: lighter;
+    /* width: 350px !important; */
+    /* padding-right: 6px; */
+
+    
+}
+
+.store-img {
+  transition: all 1s ease-in-out;
+  width: 330px;
+  height: 280px;
+  /* border-radius: 4px; */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
+  
+}
+  #card-body{
+    width: 350px !important; 
+    
+
+} 
+
+#img-container:hover .store-img {
+  transform: scale(1.2);
+}
+
+  .item-icon {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    padding: 0.75rem;
+    background: yellow;
+    border-top-left-radius: 1rem;
+    transition: all 1s ease-in-out;
+    transform: translate(100%, 100%);
+  }
+  #img-container:hover .item-icon {
+    transform: translate(0, 0);
+  }
+  .item-icon:hover {
+    color: White;
+  }
+   .item-value {
+    float:right;
+    padding-right: 20px;
+    
+    
+  }
+
+  .item-name{
+letter-spacing: 1.5px;
+  } 
+
+.cart{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+    border:1px solid transparent;
+    background: #d19db5;
+    transition: all 2s ease-in-out;
+    min-height: 300px;
+    overflow: hidden;
+    width: 25rem;
+    transform: translate(110%, 100%);
+    display: flex;
+    flex-direction: column;
+}
+.cart-item-remove{
+    color: red
+}
+.item-img{
+    border-radius: 50%;
+    height: 50px
+}
+ .show-cart{
+    transform: rotateY(-360deg);
+    width: 25rem; 
+}
+.cart-total{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+
+.cart-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item-img{
+    /* border: 1px solid black; */
+    height: 50px; 
+    width: 40px;
+    border-radius: 50%;
+}
+#dollar{
+    margin-left: 20px
+}
+#buttongroup{
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+.check-out, .clear-cart{
+    padding: 4px;
+    border: 2px solid black;
+    font-family: "Kaushan Script", cursive;
+    font-size: 12px;
+    background-color: palevioletred;
+    text-decoration: none;
+    color: black;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+.group{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+
+.lightbox-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.6) !important;
+    display: none;
+    align-items: center;
+  }
+  .show{
+    display: block
+}
+.lightbox-holder {
+    position: relative;
+  }
+  .lightbox-item {
+      margin: 0 auto;
+      margin-top: 5%;
+    min-height: 80vh;
+    width: 80%;
+    background: url("../imgs/cake-1.jpeg") center/cover fixed no-repeat;
+    border-radius: 0.3rem;
+  }
+  .lightbox-close {
+    color: pink;
+    font-size: 3rem;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    left: 0
+  }
+  .lightbox-close:hover {
+    color: gold;
+  }
+  
+  .lightbox-control {
+    position: absolute;
+    font-size: 4rem;
+    color: pink;
+    transition: all 1s linear;
+    cursor: pointer;
+  }
+  .lightbox-control:hover {
+    color: gold;
+  }
+  .btnLeft {
+    top: 50%;
+    left: 9%;
+    transform: translateX(-60%);
+  }
+  .btnRight {
+    top: 50%;
+    right: 9%;
+    transform: translateX(60%);
+  }
